@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PhotoApp1.CustomRenderers;assembly=PhotoApp1"
+             x:Class="PhotoApp1.CameraPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Camera Preview:" />
+            <local:CameraPreview Camera="Rear"
+				   HorizontalOptions="FillAndExpand"
+				   VerticalOptions="FillAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
